@@ -12,8 +12,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
       margin: 0;
     }
 
@@ -69,9 +67,45 @@
     #copyButton:hover {
       background-color: #00ccff;
     }
+
+    .ad-box {
+      width: 100%;
+      background-color: #2b2b2b;
+      padding: 20px;
+      text-align: center;
+      border-top: 2px solid #444;
+      margin-top: 40px;
+    }
+
+    .ad-box h3 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    .top-banner {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Top Ad Banner -->
+  <div class="top-banner">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '8e56da583f5b268619c821ee99e405f4',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/8e56da583f5b268619c821ee99e405f4/invoke.js"></script>
+  </div>
 
   <h2>Technological Text Repeater</h2>
 
@@ -94,6 +128,13 @@
 
   <h3>Repeated Text:</h3>
   <textarea id="output" readonly></textarea>
+
+  <!-- Bottom Dark Theme Ad Box -->
+  <div class="ad-box">
+    <h3>Sponsored Ad</h3>
+    <script async="async" data-cfasync="false" src="//pl26732604.profitableratecpm.com/1b55e7b0c8e172aab01f68692835a2ce/invoke.js"></script>
+    <div id="container-1b55e7b0c8e172aab01f68692835a2ce"></div>
+  </div>
 
   <script>
     let periodEnabled = false;
@@ -129,11 +170,5 @@
       });
     }
   </script>
-<div class="ads-box">
-      <h2>Ads</h2>
-	   <script async="async" data-cfasync="false" src="//pl26732604.profitableratecpm.com/1b55e7b0c8e172aab01f68692835a2ce/invoke.js"></script>
-<div id="container-1b55e7b0c8e172aab01f68692835a2ce"></div>
-    </div>
-  </div>
 </body>
 </html>
